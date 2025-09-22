@@ -56,29 +56,13 @@ h1 {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.candy.Red {
-    background-image: url('./images/Red.png');
-}
+.candy.Red { background-image: url('Red.png'); }
+.candy.Green { background-image: url('Green.png'); }
+.candy.Blue { background-image: url('Blue.png'); }
+.candy.Yellow { background-image: url('Yellow.png'); }
+.candy.Purple { background-image: url('Purple.png'); }
+.candy.Orange { background-image: url('Orange.png'); }
 
-.candy.Green {
-    background-image: url('./images/Green.png');
-}
-
-.candy.Blue {
-    background-image: url('./images/Blue.png');
-}
-
-.candy.Yellow {
-    background-image: url('./images/Yellow.png');
-}
-
-.candy.Purple {
-    background-image: url('./images/Purple.png');
-}
-
-.candy.Orange {
-    background-image: url('./images/Orange.png');
-}
 
 .candy.matched {
     animation: glow 0.5s ease-in-out;
@@ -94,3 +78,4 @@ h1 {
     font-size: 1.5rem;
     color: #333;
 }
+
