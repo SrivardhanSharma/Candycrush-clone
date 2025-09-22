@@ -15,7 +15,8 @@ function createCandy(row, col) {
     const candy = document.createElement('div');
     const randomColor = candies[Math.floor(Math.random() * candies.length)];
     candy.classList.add('candy', randomColor);
-    candy.style.backgroundImage = candy.style.backgroundImage = `url('./images/${randomColor}.png')`;
+    candy.style.backgroundImage = `url('${randomColor}.png')`;
+
 
     candy.style.backgroundSize = 'cover';
     candy.setAttribute('data-row', row);
@@ -275,3 +276,4 @@ board.addEventListener('drop', async (event) => {
 });
 
 initializeBoard();
+
